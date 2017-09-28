@@ -12,8 +12,8 @@ var fDataStatus = AmazingCy.LinqBuilder.Builder<Mint_Moment>.Create(
                    c => c.DataStatus == (int)DataStatus.Success);
 //AND 拼接两个条件
  
- var filter = fTime & fDataStatus;
+var filter = fTime & fDataStatus;
  
  //使用查询
- vara Count = db.Mint_Moments.Count(filter.Expression);
+var count = db.Mint_Moments.Count(filter.Expression);
  ```
