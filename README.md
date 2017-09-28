@@ -6,7 +6,7 @@ To Easy Builder Linq  Like Mongdo .Net Driver.
 //Eg:
 //条件1
 var fTime= AmazingCy.LinqBuilder.Builder<Mint_Moment>.Create(c =>
-                    c.UpdateTime <= fetch.SpiltTime && c.DataStatus == (int) DataStatus.Success);<br/>
+                    c.UpdateTime <= fetch.SpiltTime && c.DataStatus == (int) DataStatus.Success);
 //条件2
 var fDataStatus = AmazingCy.LinqBuilder.Builder<Mint_Moment>.Create(
                    c => c.DataStatus == (int)DataStatus.Success);
